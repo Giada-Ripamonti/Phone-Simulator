@@ -1,0 +1,62 @@
+button {
+    border: none;
+    padding: 0.5rem 0;
+    color:$dark-grey
+}
+
+.phone p + button {
+    background-color: $dark-yellow;
+    font-weight: bold;
+    &:hover, &:focus {
+        background-color: $dark-yellow-secondary
+    }
+}
+
+.phone button:nth-child(3) {
+    background-color: $orange;
+    &:hover, &:focus {
+        background-color: $orange-secondary;
+    }
+}
+
+.phone button:last-child{
+    background-color: $green;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    &:hover, &:focus {
+        background-color: $green-secondary;
+    }
+}
+
+.userInfo button, .topUp button {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.userInfo button {
+    margin-bottom: 2rem;
+    background-color: $white;
+    border: 1px solid $red;
+    color: $red;
+    box-shadow: 2px 2px 10px 1px $red;
+    &:hover {
+        background-color: $coral;
+    }
+}
+
+.userInfo button .iconify {
+    color: $red;
+    font-size: 0.8rem;
+}
+
+.topUp button {
+    background-color: $mint;
+    box-shadow: 1px 3px 8px 1px $pine;
+    color: $dark-pine;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    &:hover {
+        background-color: $mint-secondary;
+    }
+}

@@ -1,0 +1,159 @@
+button {
+  border: none;
+  padding: 0.5rem 0;
+  color: rgb(51, 51, 51);
+}
+
+.phone p + button {
+  background-color: rgb(255, 238, 85);
+  font-weight: bold;
+}
+.phone p + button:hover, .phone p + button:focus {
+  background-color: rgb(255, 230, 0);
+}
+
+.phone button:nth-child(3) {
+  background-color: rgb(255, 138, 70);
+}
+.phone button:nth-child(3):hover, .phone button:nth-child(3):focus {
+  background-color: rgb(255, 94, 0);
+}
+
+.phone button:last-child {
+  background-color: rgb(29, 253, 78);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.phone button:last-child:hover, .phone button:last-child:focus {
+  background-color: rgb(58, 226, 43);
+}
+
+.userInfo button, .topUp button {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.userInfo button {
+  margin-bottom: 2rem;
+  background-color: white;
+  border: 1px solid rgb(187, 33, 33);
+  color: rgb(187, 33, 33);
+  box-shadow: 2px 2px 10px 1px rgb(187, 33, 33);
+}
+.userInfo button:hover {
+  background-color: rgb(253, 175, 175);
+}
+
+.userInfo button .iconify {
+  color: rgb(187, 33, 33);
+  font-size: 0.8rem;
+}
+
+.topUp button {
+  background-color: rgb(0, 209, 146);
+  box-shadow: 1px 3px 8px 1px rgb(2, 102, 69);
+  color: rgb(1, 78, 53);
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+.topUp button:hover {
+  background-color: rgb(0, 197, 131);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background: rgb(97, 58, 180);
+  background: linear-gradient(63deg, rgb(97, 58, 180) 0%, rgb(29, 253, 78) 50%, rgb(191, 69, 252) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  margin: 1rem auto;
+}
+
+h2 {
+  color: rgb(97, 58, 180);
+  font-size: 1.5rem;
+  margin: 0.5rem auto;
+}
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p, span, .iconify {
+  color: rgb(51, 51, 51);
+  font-size: 1rem;
+}
+
+p, span {
+  font-weight: lighter;
+  margin: 0.5rem auto;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* USERS */
+.users {
+  display: flex;
+  justify-content: center;
+}
+.users .container {
+  background-color: rgba(255, 255, 255, 0.356);
+  box-shadow: 2px 2px 10px 1px rgba(97, 58, 180, 0.438);
+  border-radius: 20px;
+  margin: 1rem auto 2rem auto;
+  padding: 2rem;
+}
+
+.phone {
+  border: 1px solid rgb(97, 58, 180);
+  box-shadow: 2px 2px 10px 1px rgba(97, 58, 180, 0.438);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.767);
+  margin: 1rem auto;
+  width: 10rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: grid;
+}
+.phone p {
+  margin: 1rem auto;
+}
+
+.userInfo p:first-child, .userInfo p:nth-child(2) {
+  margin-top: 1.5rem;
+}
+
+.topUp {
+  border: 1px solid rgb(2, 138, 2);
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+.topUp input {
+  width: 5rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
